@@ -1,11 +1,9 @@
-# text-editor
-This is a text editor that utilizes the different aspects of progressive web applications
-# Social Networking API
+# Text Editor
 
 ## Description
-- This project involved creating an backend server for a Social Networking API.
-- The backend server is not being deployed so there is a video demonstrating its functionality.
-- The user is able to insert data into the models for users, thoughts and add corresponding friends and reactions.
+- This project involved creating a progressive web application
+- This is a text editor that allows users to view their entries and update an entry
+- The user is able to utilize the application offline.
 
 ## Table of Contents
 
@@ -14,38 +12,39 @@ This is a text editor that utilizes the different aspects of progressive web app
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Support](#support)
 - [Credits](#credits)
 
 
 ## Features
 
-This features backend server through use of MongoDB for a Social Networking API
+This features backend server through use of IndexDB and connects to a front end progressive web application.
 
-The Social Networkign API uses the following packages:
+The Text Editor uses the following packages:
 
-- express: For web framework
-- mongoose: For Connection to MongoDB
+- express: for web framework
+- concurrently: for scripting
+- babel: for backward integration of languages
+- css loader: for loading CSS
+- webpack: for bundling 
 
 ## Installation
 
-To install this application you need to download the code, install the dependencies and then perform npm start in the terminal.  From there the user can use insomnia to test the routes and add data to the database.
-
-Follow the following URL to the video demonstrating the functionality: https://drive.google.com/file/d/1t4u6g_PlofJNhMwP_xwiwypGutaPXLDR/view
+To install this application you need to go to the following website:  
+Once there, you can click on install to make it so you can be offline.
 
 
 ## Usage
 
-<img src="./images/terminal-screenshot.png" alt="Screenshot of the terminal starting the application" width="600px" />
+<img src="" alt="" width="600px" />
 
-    - This is an image of the terminal starting the application
+    - Thi
 
-<img src="./images/insomnia-get-allusers.png" alt="Screenshot of insomnia route to get all users" width="600px" />   
+<img src="" alt="" width="600px" />   
     
-    -   This image is of Insomnia where the user is able to view all the users.
+    -   Th.
 
-<img src="./images/insomnia-post-thought.png" alt="Screenshot of insomnia route to add a thought" width="600px" />   
-    
-    -   This image is of Insomnia where the user is able to add a thought.
+
 
 ## Contributing
 
@@ -63,6 +62,7 @@ Follow the following URL to the video demonstrating the functionality: https://d
 
     Donnie Rawlings: https://github.com/drawlin22/
     Kyle Jocoy: https://github.com/Kylyote/
-    Nedda Elsayed: https://github.com/Lven-Nemsy
     Colton Firestone: https://github.com/ColtonMakesStuff
+
+    Ask BCS Diego Marrs
 
