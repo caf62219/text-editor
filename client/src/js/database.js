@@ -25,7 +25,7 @@ try {
   const store = tx.objectStore('jate');
 
   // use the .add() method to add the data to the object store
-  const request = store.add({jate: content});
+  const request = store.add({id:id, jate: content});
 
   const result = await request;
 
