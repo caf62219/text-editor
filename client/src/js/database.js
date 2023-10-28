@@ -14,7 +14,7 @@ const initdb = async () =>
 
 // a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
-try {
+
   //create a connection to the database
   const jatedb = await openDB('jate', 1);
 
@@ -25,18 +25,17 @@ try {
   const store = tx.objectStore('jate');
 
   // use the .add() method to add the data to the object store
-  const request = store.add({id:1, jate: content});
+  const request = store.add({id:Date.now, jate: content});
 
   const result = await request;
 
   console.log('Data saved to the database', result);
-} catch {
-console.error('putDb not implemented');
-}
+
+
 }
 // method that gets all the content from the database
 export const getDb = async () => {
-  try{
+ 
     //create a connection to the database
   const jatedb = await openDB('jate', 1);
 
@@ -52,9 +51,7 @@ export const getDb = async () => {
   //return the data
   const result = await request;
   console.log('Data retrieved from the database', result);
-  } catch {
-    console.error('getDb not implemented')
-  }
+  
   
 };
   

@@ -66,4 +66,5 @@ Once there, you can click on install to make it so you can be offline.
     Colton Firestone: https://github.com/ColtonMakesStuff
 
     Ask BCS Diego Marrs
+    Ask BCS Shane McElrath
 
