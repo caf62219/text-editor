@@ -30,15 +30,16 @@ The Text Editor uses the following packages:
 
 ## Installation
 
-To install this application you need to go to the following website:  
+To install this application you need to go to the following website:  https://text-editor-caf62219-47e9d4b0a975.herokuapp.com/
+
 Once there, you can click on install to make it so you can be offline.
 
 
 ## Usage
 
-<img src="" alt="" width="600px" />
+<img src="./images/screenshot-JATE.png" alt="Screenshot of JATE" width="600px" />
 
-    - Thi
+    - This is a screenshot of the homepage of the text editor.
 
 <img src="" alt="" width="600px" />   
     

@@ -52,6 +52,7 @@ module.exports = () => {
       })
     ],
 
+    // modules for webpack to use
     module: {
       rules: [
         {
