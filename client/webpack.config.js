@@ -5,6 +5,7 @@ const WorkboxPlugin = require('workbox-webpack-plugin');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
+
 module.exports = () => {
   return {
     mode: 'development',
@@ -17,10 +18,13 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      
+
       //webpack plugin for generating an asset manifest.
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'JATE',
+        favicon: './favicon.ico',
       }),
       new MiniCssExtractPlugin(),
       new WorkboxPlugin.GenerateSW(),

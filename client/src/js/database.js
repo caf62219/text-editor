@@ -25,7 +25,7 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
 
   // use the .add() method to add the data to the object store
-  const request = store.add({id:Date.now, jate: content});
+  const request = store.add({id:Date.now(), jate: content});
 
   const result = await request;
 
