@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
@@ -26,8 +26,7 @@ module.exports = () => {
         title: 'JATE',
         favicon: './favicon.ico',
       }),
-      new MiniCssExtractPlugin(),
-      new WorkboxPlugin.GenerateSW(),
+      
       
       //Injects a manifest (precache list) into the service worker.
       new InjectManifest({
